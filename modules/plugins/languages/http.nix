@@ -88,10 +88,10 @@ in {
         };
 
         mappings = {
-          openScratchpad = mkMappingOption "Open scratchpad" "<leader>Rb";
-          sendRequest = mkMappingOption "Send request" "<leader>Rs";
-          sendAllRequests = mkMappingOption "Send all requests" "<leader>Ra";
-          replayRequest = mkMappingOption "Replay the last request" "<leader>Rr";
+          openScratchpad = mkMappingOption "Open scratchpad [kulala]" "<leader>Rb";
+          sendRequest = mkMappingOption "Send request [kulala]" "<leader>Rs";
+          sendAllRequests = mkMappingOption "Send all requests [kulala]" "<leader>Ra";
+          replayRequest = mkMappingOption "Replay the last request [kulala]" "<leader>Rr";
         };
       };
     };
